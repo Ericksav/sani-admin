@@ -1,0 +1,17 @@
+{
+  "name": "sani-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "huleos.css": "0.0.9"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
