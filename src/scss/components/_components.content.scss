@@ -1,0 +1,13 @@
+.c-content{
+	&__left{
+		background-color: $brand-light-blue;
+		min-height: rem(830);
+	}
+	&__right{
+		background-color: $white;
+		min-height: rem(830);
+	}
+	&__padding{
+		padding: rem(20);
+	}
+}

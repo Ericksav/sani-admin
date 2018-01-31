@@ -1,0 +1,40 @@
+//Body Font
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900');
+
+//Typography
+// --------------------------
+$base-font-size:              rem-calc(18) !default;
+$body-font-family:            'Raleway', sans-serif;
+
+a{
+	text-decoration: none;
+	transition: all .3s ease-out;
+	&:hover{
+		text-decoration: none;
+	}
+}
+body{
+	color: $dark-gray;
+	font-weight: 500;
+	font-family: 'Raleway', sans-serif;
+	font-size: rem(18);
+}
+p{
+	line-height: 1.4;
+	margin-bottom: rem(15);
+}
+
+b{
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+	font-family: $body-font-family;
+	margin-bottom: rem(15);
+	color: $dark-gray; 
+}
+
+button{
+	font-family: $body-font-family;
+}

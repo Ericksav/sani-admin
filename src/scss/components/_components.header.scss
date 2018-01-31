@@ -1,0 +1,21 @@
+.c-header{
+	&__left{
+		background-color: $brand-medium-blue;
+	}
+	&__right{
+		background-color: $light-gray;
+	}
+	&__username{
+		color: $white;
+		font-weight: 700;
+		text-transform: capitalize;
+		margin-bottom: 0;
+	}
+	&__log{
+		color: $dark-gray;
+		padding: 0 rem(20);
+		&:hover{
+			color: $warning;
+		}
+	}
+}

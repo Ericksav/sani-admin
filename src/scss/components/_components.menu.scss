@@ -1,0 +1,25 @@
+.c-menu{
+	&__links{
+		padding: rem(20) rem(40);
+		color: $white;
+		&:hover,
+		&:active{
+			background-color: $brand-dark-blue;
+			color: $white;
+		}
+		&-settings{
+			padding: rem(20) rem(40);
+			background-color: $brand-medium-blue;
+			color: $white;
+				&:hover,
+				&:active{
+				background-color: $brand-dark-blue;
+				color: $white;
+			}
+		}
+	}
+	&__copyright{
+		color: $white;
+		padding: rem(20) 0;
+	}
+}

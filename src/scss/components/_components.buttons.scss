@@ -1,0 +1,18 @@
+.c-button-general{
+	background-color: $brand-orange;
+	border: 2px solid $brand-orange;
+	padding: rem(10) rem(20);
+  width: 100%;
+	color: $white !important;
+	font-size: rem(18);
+	text-transform: capitalize;
+	transition: all .6s ease-out;
+	text-align: center;
+	&:hover,
+	&:active, 
+	&:focus{
+		background-color: transparent;
+		color: $brand-orange !important;
+		border-color: $brand-orange !important;
+	}
+}

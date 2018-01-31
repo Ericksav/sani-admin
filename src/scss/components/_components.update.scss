@@ -1,0 +1,17 @@
+.c-update{
+	border: rem(2) solid $light-gray;
+	padding: rem(20);
+	ol{
+		list-style: none;
+	}
+	&__link{
+		padding: rem(10);
+		border: rem(2) solid $light-gray;
+		margin-bottom: rem(10);
+		color: $dark-gray;
+		transition: all .6s ease-out;
+		&:hover{
+			border: rem(2) solid $dark-gray;
+		}
+	}
+}

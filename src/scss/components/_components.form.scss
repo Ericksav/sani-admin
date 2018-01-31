@@ -1,0 +1,45 @@
+input[type=tel], select, input, textarea{
+	border-radius: 0 !important;
+	display: block;
+  width: 100%;
+  font-family: inherit;
+  vertical-align: middle;
+  outline: none;
+  line-height: 1.5;
+}
+
+.is-error {
+  font-size: rem(14);
+  color: $warning;
+}
+
+.c-alert {
+	padding: rem(5);
+  margin-bottom: rem(5);
+  border: 1px solid transparent;
+  &--error {
+  	color: #721c24;
+  	background-color: lighten($error-color, 65%);
+  	border-color: lighten($error-color, 60%);
+  }
+}
+
+
+//Animations
+@keyframes createModal {
+	from {
+	  transform: scale(0);
+	}
+	to {
+	  transform: scale(1);
+	}
+}
+
+@keyframes closeModal {
+	from {
+	  transform: scale(1);
+	}
+	to {
+	  transform: scale(0);
+	}
+}
