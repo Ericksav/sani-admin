@@ -2,91 +2,47 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Sani Admin</title>
+	<title>Sani Admin || Log In</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<div class="o-container--full o-flex u-p0">
 		<!-- HEADER -->
 		<div class="o-flex u-flex__full o-flex--middle c-header">
-			<div class="u-flex__20 c-header__left">
-				<div class="u-flex__full o-flex o-flex--center o-flex--middle u-padding__20">
-					<h1 class="c-header__username">Ericksav</h1>
-				</div>
-			</div>
-			<div class="u-flex__80 c-header__right">
-				<div class="o-flex u-flex__full o-flex--middle u-padding__20">
-					<div class="u-flex__80">
-						<div class="o-flex o-flex--middle">
+			<div class="u-flex__full c-header__right">
+				<div class="u-padding__20">
+						<div class="o-flex u-flex__full o-flex--middle o-flex--left">
 							<div class="u-mx1">
 								<img src="dist/img/logo-smt.png" alt="">
 							</div>
-							<h1 class="u-mb0">Dashboard</h1>
-						</div>
-					</div>
-					<div class="o-flex u-flex__20 o-flex--right">
-						<a class="c-header__log" href=""><b>Log Out</b></a>
+							<h3 class="u-mb0 u-mx1">Administrator</h3>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- HEADER -->
-		<!-- LEFT -->
-		<div class="u-flex__20 c-content__left o-flex o-flex--justify">
-			<div class="u-flex__full u-my2">
-				<div class="o-flex">
-					<a class="u-flex__full c-menu__links" href="pages.html">Pages</a>
-					<a class="u-flex__full c-menu__links" href="pages.html">Reviews</a>
-					<a class="u-flex__full c-menu__links" href="pages.html">Blog</a>
-				</div>
-			</div>
-			<div class="o-flex o-flex--bottom u-flex__full">
-				<div class="o-flex u-flex__full">
-					<a class="u-flex__full c-menu__links-settings" href="">Settings</a>
-				</div>
-				<div class="o-flex u-flex__full o-flex--center o-flex--middle">
-					<small class="c-menu__copyright">Copyright 2018</small>
-				</div>
-			</div>
-		</div>
-		<!-- LEFT -->
-		<!-- RIGHT -->
-		<div class="u-flex__80 c-content__right">
-			<!-- UP -->
-			<!-- <div class="o-container--full o-flex o-flex--justify o-flex--middle u-padding__20 c-header">
-				<div class="o-flex u-flex__80">
-					<div class="o-flex">
-						<div class>
-							<img src="dist/img/logo-smt.png" alt="">
-						</div>
-						<h2 class="u-mb0">Pages</h2>
-					</div>
-				</div>
-				<div class="o-flex u-flex__20">
-					<a href=""><b>Log Out</b></a>
-				</div>
-			</div> -->
-			<!-- UP -->
-			<!-- Content -->
-			<div class="o-flex u-flex__full">
-				<div class="u-flex__30 c-content__padding">
-					<div class="c-update__box">
-						<div class="c-update">
-							<p><b>Latest Updates</b></p>
-							<ol>
-								<a href="pages.html"><li class="c-update__link">Link 1</li></a>
-								<a href="pages.html"><li class="c-update__link">Link 2</li></a>
-								<a href="pages.html"><li class="c-update__link">Link 3</li></a>
-								<a href="pages.html"><li class="c-update__link">Link 4</li></a>
-								<a href="pages.html"><li class="c-update__link">Link 5</li></a>
-							</ol>
-						</div>
+		<div class="o-flex u-flex__full o-flex--middle o-flex--center">
+			<div class="o-container--sm u-my4">
+				<div class="c-update__box">
+					<div class="c-update">
+						<form action="">
+							<label>Username</label>
+  						<input type="text" class="c-form-input" placeholder="">
+
+  						<label>Password</label>
+  						<input type="text" class="c-form-input" placeholder="">
+
+  						<div class="o-flex u-flex__full o-flex--center">
+						  	<div class="o-flex u-flex__third">
+						  		<a class="c-button-general" href="dashboard.html">Log In</a>
+						  	</div>
+						  </div>
+
+						</form>
 					</div>
 				</div>
 			</div>
-			<!-- Content -->
 		</div>
-		<!-- RIGHT -->
 	</div>
 <script src="./dist/bundle.js"></script>
 </body>
