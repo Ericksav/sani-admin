@@ -5,4 +5,13 @@
 	&__down{
 		background-color: $light-gray;
 	}
+	&__delete{
+		background-color: $medium-gray;
+		&-text{
+			color: $white;
+			a{
+				color: $white;
+			}
+		}
+	}
 }
