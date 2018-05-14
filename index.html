@@ -3,48 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Sani Admin || Log In</title>
+	<link rel="stylesheet" href="//unpkg.com/huleos.css/css/huleos.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="./dist/img/favicon.png" type="image/png" rel="icon">
 </head>
 <body>
-	<div class="o-container--full o-flex u-p0">
-		<!-- HEADER -->
-		<div class="o-flex u-flex__full o-flex--middle c-header">
-			<div class="u-flex__full c-header__right">
-				<div class="u-padding__20">
-						<div class="o-flex u-flex__full o-flex--middle o-flex--left">
-							<div class="u-mx1">
-								<img src="dist/img/logo-smt.png" alt="">
-							</div>
-							<h3 class="u-mb0 u-mx1">Administrator</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- HEADER -->
-		<div class="o-flex u-flex__full o-flex--middle o-flex--center">
-			<div class="o-container--sm u-my4">
-				<div class="c-update__box">
-					<div class="c-update">
-						<form action="">
-							<label>Username</label>
-  						<input type="text" class="c-form-input" placeholder="">
-
-  						<label>Password</label>
-  						<input type="text" class="c-form-input" placeholder="">
-
-  						<div class="o-flex u-flex__full o-flex--center">
-						  	<div class="o-flex u-flex__third">
-						  		<a class="c-button-general" href="dashboard.html">Log In</a>
-						  	</div>
-						  </div>
-
-						</form>
-					</div>
-				</div>
-			</div>
+	<div class="o-container--full o-flex o-flex--middle o-flex--center u-py4">
+		<div class="c-card">
+		  <div class="c-card__content">
+			  <form action="">
+					<label>Username</label>
+					<input type="text" class="c-form-input" placeholder="">
+					<label>Password</label>
+					<input type="text" class="c-form-input" placeholder="">
+					<button class="c-button c-button--primary">Log In</button>
+				</form>
+		  </div>
 		</div>
 	</div>
-<script src="./dist/bundle.js"></script>
 </body>
 </html>
